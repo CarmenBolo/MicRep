@@ -23,6 +23,8 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
+[Link](url) and ![Image](src)
+
 <body>
   <h1>Bine ai venit la lab</h1>
 <script>
@@ -34,8 +36,7 @@ Syntax highlighted code block
     </script>  
     <button onclick="alertCookie()">Show cookies</button> 
   </body>
-
-[Link](url) and ![Image](src)
+  
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
