@@ -48,21 +48,21 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
   } 
     </script>  
     <button onclick="alertCookie()">Show cookies</button> 
-  <script>
+ <script>
     document.cookie = "name=oeschger; SameSite=None; Secure";
-document.cookie = "favorite_food=tripe; SameSite=None; Secure";
+    document.cookie = "favorite_food=tripe; SameSite=None; Secure";
 
-function showCookies() {
-  const output = document.getElementById('cookies')
-  output.textContent = '> ' + document.cookie
+    function showCookies() {
+    const output = document.getElementById('cookies')
+    output.textContent = '> ' + document.cookie
 }
 
-function clearOutputCookies() {
-  const output = document.getElementById('cookies')
-  output.textContent = ''
+    function clearOutputCookies() {
+    const output = document.getElementById('cookies')
+    output.textContent = ''
 }
-  </script>
-  <button onclick="showCookies()">Show cookies</button>
+    </script>
+    <button onclick="showCookies()">Show cookies</button>
 
 <button onclick="clearOutputCookies()">
   Clear
