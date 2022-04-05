@@ -23,17 +23,6 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CarmenBolo/MicRep/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-<!DOCTYPE html>
-<html>
 <body>
   <h1>Bine ai venit la lab</h1>
 <script>
@@ -45,7 +34,16 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
     </script>  
     <button onclick="alertCookie()">Show cookies</button> 
   </body>
-</html>
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CarmenBolo/MicRep/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
 
 ### Support or Contact
 
