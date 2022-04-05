@@ -37,17 +37,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
-### Bine ai venit la lab
+### Document cookie
 
-<body>
-<script>
-  document.cookie = "session=test GDPR"; 
-  document.cookie = "favorite_task=collect Data"; 
-  function alertCookie() { 
-  alert(document.cookie); 
-  } 
-    </script>  
-    <button onclick="alertCookie()">Show cookies</button> 
+<body>  
  <script>
     document.cookie = "name=oeschger; SameSite=None; Secure";
     document.cookie = "favorite_food=tripe; SameSite=None; Secure";
@@ -67,11 +59,9 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 <button onclick="clearOutputCookies()">
   Clear
 </button>
-
 <div>
   <code id="cookies"></code>
 </div>
-
   
 <script>
 document.cookie = "test1=Hello; SameSite=None; Secure";
